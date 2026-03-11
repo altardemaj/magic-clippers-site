@@ -16,9 +16,9 @@ export default function Home() {
             <Link href="/about" className="text-zinc-300 hover:text-yellow-400 transition-colors">
               About
             </Link>
-            <a href="#services" className="text-zinc-300 hover:text-yellow-400 transition-colors">
+            <Link href="/services" className="text-zinc-300 hover:text-yellow-400 transition-colors">
               Services
-            </a>
+            </Link>
             <a href="#team" className="text-zinc-300 hover:text-yellow-400 transition-colors">
               Team
             </a>

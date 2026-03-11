@@ -29,7 +29,7 @@ export default function AboutPage() {
             <Link href="/about" className="text-yellow-400 font-medium">
               About
             </Link>
-            <Link href="/#services" className="text-zinc-300 hover:text-yellow-400 transition-colors">
+            <Link href="/services" className="text-zinc-300 hover:text-yellow-400 transition-colors">
               Services
             </Link>
             <Link href="/#team" className="text-zinc-300 hover:text-yellow-400 transition-colors">

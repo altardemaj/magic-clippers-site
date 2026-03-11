@@ -283,7 +283,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col md:flex-row gap-8 items-stretch">
             <blockquote className="bg-zinc-900 p-6 rounded-xl border-l-4 border-yellow-400 shadow text-zinc-200 flex-1">
-              <p className="italic mb-2">"Best barbershop in Putnam & Westchester! Consistent, friendly and professional. Mike gives the best fades."</p>
+              <p className="italic mb-2">"Best barbershop in Putnam & Westchester! Consistent, friendly and professional. Nick gives the best fades."</p>
               <footer className="text-right text-sm text-zinc-400">— James R.</footer>
             </blockquote>
             <blockquote className="bg-zinc-900 p-6 rounded-xl border-l-4 border-yellow-400 shadow text-zinc-200 flex-1">

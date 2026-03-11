@@ -232,17 +232,32 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10">Our Space</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
-            <div className="aspect-square rounded-xl overflow-hidden bg-zinc-800 border border-zinc-700 bg-[url('/barbershop-bg.jpg')] bg-cover bg-center" />
-            <div className="aspect-square rounded-xl overflow-hidden bg-zinc-800 border border-zinc-700 bg-gradient-to-br from-zinc-700 to-zinc-900 flex items-center justify-center">
-              <span className="text-zinc-500 text-sm font-medium">Shop</span>
-            </div>
-            <div className="aspect-square rounded-xl overflow-hidden bg-zinc-800 border border-zinc-700 bg-gradient-to-br from-zinc-600 to-zinc-800 flex items-center justify-center">
-              <span className="text-zinc-500 text-sm font-medium">Cuts</span>
-            </div>
-            <div className="aspect-square rounded-xl overflow-hidden bg-zinc-800 border border-zinc-700 bg-gradient-to-br from-zinc-700 to-zinc-900 flex items-center justify-center">
-              <span className="text-zinc-500 text-sm font-medium">Style</span>
-            </div>
-          </div>
+
+<div className="aspect-square rounded-xl overflow-hidden border border-zinc-700 bg-[url('/barbershop-bg.jpg')] bg-cover bg-center flex items-end p-4">
+  <span className="text-white text-sm font-medium bg-black/60 px-3 py-1 rounded-full">
+    Shop
+  </span>
+</div>
+
+<div className="aspect-square rounded-xl overflow-hidden border border-zinc-700 bg-[url('/cuts.jpg')] bg-cover bg-center flex items-end p-4">
+  <span className="text-white text-sm font-medium bg-black/60 px-3 py-1 rounded-full">
+    Cuts
+  </span>
+</div>
+
+<div className="aspect-square rounded-xl overflow-hidden border border-zinc-700 bg-[url('/beard.jpg')] bg-cover bg-center flex items-end p-4">
+  <span className="text-white text-sm font-medium bg-black/60 px-3 py-1 rounded-full">
+    Beard
+  </span>
+</div>
+
+<div className="aspect-square rounded-xl overflow-hidden border border-zinc-700 bg-[url('/style.jpg')] bg-cover bg-center flex items-end p-4">
+  <span className="text-white text-sm font-medium bg-black/60 px-3 py-1 rounded-full">
+    Style
+  </span>
+</div>
+
+</div>
           <p className="text-center text-zinc-500 text-sm mt-4">Visit us at 267 Tomahawk St to see the full experience.</p>
         </div>
       </section>

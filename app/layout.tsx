@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -12,9 +13,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Magic Clippers | Premium Barbershop",
-  description: "Magic Clippers offers expert fades, beard trims, and modern haircuts. Book your appointment today.",
+  description:
+    "Magic Clippers offers expert fades, beard trims, and modern haircuts. Book your appointment today.",
   openGraph: {
     title: "Magic Clippers",
     description: "Expert fades, beard trims, and premium barber services.",
@@ -30,7 +32,8 @@ export const metadata = {
     ],
     type: "website",
   },
-}
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -42,6 +45,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
